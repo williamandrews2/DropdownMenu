@@ -22,6 +22,11 @@ class Dropdown {
   }
 }
 
-document
-  .querySelectorAll(".dropdown")
-  .forEach((dropdown) => new Dropdown(dropdown));
+function initializeDropdowns() {
+  document
+    .querySelectorAll(".dropdown")
+    .forEach((dropdown) => new Dropdown(dropdown));
+}
+
+// Remove this line if not using as a module.
+export { Dropdown, initializeDropdowns };

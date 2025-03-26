@@ -1,0 +1,17 @@
+{
+  "name": "dropdownmenu",
+  "version": "1.0.0",
+  "description": "A simple dropdown menu!",
+  "main": "dropdown.js",
+  "module": "dropdown.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dropdown",
+    "ui",
+    "menu"
+  ],
+  "author": "William A.",
+  "license": "ISC"
+}
